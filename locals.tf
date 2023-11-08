@@ -5,6 +5,8 @@ locals {
   project = "jjtech"
   environment = "${terraform.workspace}"
   # this function will print the time on all resources created
-  creationTime   = timestamp()
-    }
+
+  creationTime   = formatdate("DD MM YYYY hh:mm ZZZ", timestamp())
+
+}
 }
