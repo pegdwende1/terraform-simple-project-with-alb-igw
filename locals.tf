@@ -3,10 +3,10 @@ locals {
   contact = "devops@jjtech.com"
   application = "payments"
   project = "jjtech"
-  environment = "${terraform.workspace}"
+  environment = "${terraform.workspace}" #curent workspace (default)
   # this function will print the time on all resources created
 
-  creationTime   = formatdate("DD MM YYYY hh:mm ZZZ", timestamp())
+  creationTime   = formatdate("DD MM YYYY hh:mm ZZZ", timestamp() )
 
 }
 }
