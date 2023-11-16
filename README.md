@@ -3,7 +3,7 @@ AWS 3 tier infra with Terraform
 
 ## Project setup
 
-1. Download and install terraform from github to your machine
+1. Download and install terraform from to your machine
 
 2. Clone the repo
 
